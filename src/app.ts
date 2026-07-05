@@ -65,7 +65,6 @@ app.use('/api/v1', routes);
 // 404 handler
 app.use(notFoundHandler);
 
-// Error handler
 app.use(errorHandler);
 
 export default app;
